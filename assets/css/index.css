@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*navbar*/
+nav {
+    background-color: #FFFFFF4D;
+    border-color: #FFFFFF33;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "poppins";
+    backdrop-filter: blur(13px)
+}
+
+@media (max-width:576px) {
+    .navlinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+#header {
+    background-image: linear-gradient(178.81deg, #F9F1E6 14.53%, rgba(249, 241, 230, 0) 56.38%, #FFFFFF 91.08%), url(/images/home/background.png);
+}
+
+
+#header h4 {
+    font-family: Georgia;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    /* line-height: 51px; */
+    /* padding: 0%; */
+    padding-bottom: -10%;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #292826;
+}
+
+#header h3 {
+    width: Hug (442px)px;
+    height: Hug (87px)px;
+    top: 20px;
+    left: 43px;
+    gap: 10px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-size: 56px;
+    font-weight: 600;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #7C6850;
+    padding-bottom: -5px;
+}
+
+#header p {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #52525B;
+}
+
+#header .text-bg {
+    font-family: "Poppins";
+    font-size: 150px;
+    font-weight: 150;
+    /* line-height: 240px; */
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0;
+    transition-delay: 5s;
+    animation-delay: 8s;
+    margin: 0;
+    padding-top: 1.2em;
+    color: #7C685012;
+}
+
+.animated-text::before {
+    content: "Deluxe Rooms";
+    animation: animate 10s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes animate {
+    0% {
+        content: "Superior Rooms";
+    }
+
+    25% {
+        content: "Bungalows";
+    }
+}
+
+
+#header .image {
+    background: #FFFFFF;
+    width: 15rem;
+    height: 3.8rem;
+    top: 314px;
+    left: 828px;
+    padding: 10px 60px 10px 60px;
+    gap: 10px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 8px 18px 0px #00000033;
+}
+
+#header img {
+    width: 143.18px;
+    height: 45px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#header .hero1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*offer and information*/
+
+#information h4 {
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36.36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #292826;
+}
+
+#information p {
+    font-family: Poppins;
+    font-size: 12.6px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #52525B;
+}
+
+/* #offer{
+    width: 827px;
+    height: 100px;
+    top: 1354px;
+    left: 547px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background: #F9F1E6;
+
+} */
+
+#offer {
+    background: #f9F1E6
+}
+
+#offer p {
+    font-family: Georgia;
+    font-size: 20px;
+    /* font-weight: 400; */
+    /* line-height: 10.09px; */
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #7C6850;
+
+}
+
+#offer span {
+    font-family: "Poppins";
+    font-size: 22px;
+    /* font-weight: 600; */
+    /* line-height: 38.88px; */
+    text-align: center;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+    color: #292826;
+}
+
+#heading {
+    width: 436px;
+    height: 36px;
+    top: 1638px;
+    left: 742px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+/*slider section*/
+
+#slider {
+    background-color: #292826;
+}
+
+#heading h3 {
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36.36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+#slider .room-title {
+    width: 201px;
+    height: 48px;
+    top: 2347px;
+    left: 300px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.room-title {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+#slider .card-button {
+    width: Hug (150px)px;
+    height: Hug (48px)px;
+    top: 2347px;
+    left: 996px;
+    padding: 8px 12px 8px 12px;
+    gap: 10px;
+    border-radius: 9px 9px 9px 9px;
+    opacity: 0px;
+    background-color: #ffffff;
+}
+
+.card-button {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+#slider #facilities {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.title {
+    width: 271px;
+    height: 36px;
+    top: 2584px;
+    left: 825px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.title h2 {
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.card-title {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.service h1 {
+    font-family: Georgia;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.service h1 span {
+    font-family: Georgia;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.glassdore {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.service-title {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.card-text {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+/* footer section */
+
+#footer {
+    background: #F9F1E6;
+}
+
+#footer-part h2 {
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#footer-part h4 {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+#footer-part p {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#footer-part .list {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+hr {
+    color: #7C6850;
+}
+
+@media (min-width: 1200px) {
+    .glassdorewedding {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 10px 0 0 0;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
+    }
+
+    .glassdoreBusinessMetting {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 0 10px 0 0;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .glassdoreDinner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 0 0 0 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .glassdoreparty {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 0 0 10px 0;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+}

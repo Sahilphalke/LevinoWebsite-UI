@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Restaurant</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link rel="stylesheet"
+            href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+        <!-- css link -->
+        <link rel="stylesheet" href="./assets/css/menu.css">
+
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <!-- navbar start -->
+        <div class="container-fluid sticky-top p-0">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a href="/index.html"
+                        class="navbar-brand text-decoration-none text-dark fw-bold">LEVINO</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01"
+                        aria-controls="navbarTogglerDemo01"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarTogglerDemo01">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    aria-current="page"
+                                    href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link "
+                                    href="/aboutUs.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark fw-bold"
+                                    href="/menu.html">Restaurant</a>
+                            </li>
+                        </ul>
+
+                        <div
+                            class="col-lg-5 col-sm-6 d-flex justify-content-lg-end align-items-center gap-3 p-0 contact">
+                            <div>
+                                <i class="fa-solid fa-phone p-2"></i>+91
+                                9876543210
+                            </div>
+                            <div class>
+                                <a href="/contactUs.html">
+                                    <button class="btn"
+                                        style="background-color: #7C6850;color: white;">Locate
+                                        us<i
+                                            class="fa-solid fa-envelope p-2"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar end  -->
+
+        <!-- header section start -->
+        <div class="container-fluid" id="header">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="container position-absolute m-auto">
+                    <h1
+                        class="text-bg overflow-hidden animated-text text-center">Menu
+                    </h1>
+                </div>
+            </div>
+            <div class="container position-relative pt-5">
+                <div
+                    class="col-sm-12 col-lg-6 w-100 p-0 d-flex justify-content-center align-items-end">
+                    <h4 class="text-center">Pick your delicious food with
+                        tradition</h4>
+                </div>
+                <div
+                    class="col-sm-12 col-lg-6 m-auto w-100 p-0 d-flex align-items-start justify-content-center pb-1">
+                    <h3 class="text-center">Menu</h3>
+                </div>
+                <div
+                    class="col-lg-6 col-sm-12 w-100 m-auto align-items-center justify-content-center d-flex">
+                    <p class="text-center w-50">Lorem Ipsum is simply dummy text
+                        of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's
+                        standard dummy text ever since the 1500s,</p>
+                </div>
+            </div>
+            <div class="container-fluid  pt-4 pb-5">
+                <img class="img-fluid img-responsive hero"
+                    src="./images/menu/hero.png" alt="wait for image">
+            </div>
+        </div>
+        <!-- header section end -->
+
+        <div class="container-fluid pb-2">
+            <div class="container">
+                <div class="menu-title m-auto">
+                    <h1 class="text-center">
+                        POPULAR DISH
+                    </h1>
+                </div>
+                <div class="menu-text m-auto w-100">
+                    <div
+                        class="col-sm-12 d-flex justify-content-center align-items-center">
+                        <p class="text-center w-50">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- popular dish section start -->
+        <div class="container-fluid">
+            <div class="container">
+                <div
+                    class="d-flex justify-content-center align-items-center">
+                    <ul class="nav nav-pills mb-3 gap-3" id="pills-tab"
+                        role="tablist">
+                        <li class="nav-item  listitem" role="presentation">
+                            <button class="btn"
+                                id="pills-breakfast-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-breakfast" type="button"
+                                role="tab" aria-controls="pills-breakfast"
+                                aria-selected="true">BREAKFAST</button>
+                        </li>
+                        <li class="nav-item  listitem" role="presentation">
+                            <button class="btn dishbtn"
+                                id="pills-starter-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-starter" type="button"
+                                role="tab" aria-controls="pills-starter"
+                                aria-selected="false">STARTER</button>
+                        </li>
+                        <li class="nav-item listitem" role="presentation">
+                            <button
+                                class="btn dishbtn active"
+                                id="pills-lunch-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lunch" type="button"
+                                role="tab" aria-controls="pills-lunch"
+                                aria-selected="false">LUNCH</button>
+                        </li>
+                        <li class="nav-item listitem" role="presentation">
+                            <button class="btn dishbtn"
+                                id="pills-dinner-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-dinner" type="button"
+                                role="tab" aria-controls="pills-dinner"
+                                aria-selected="false">DINNER</button>
+                        </li>
+                        <li class="nav-item listitem" role="presentation">
+                            <button class="btn dishbtn"
+                                id="pills-southindian-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-southindian"
+                                type="button" role="tab"
+                                aria-controls="pills-southindian"
+                                aria-selected="false">SOUTH INDIAN</button>
+                        </li>
+                        <li class="nav-item listitem" role="presentation">
+                            <button class="btn dishbtn"
+                                id="pills-chinese-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-chinese" type="button"
+                                role="tab" aria-controls="pills-chinese"
+                                aria-selected="false">CHINESE</button>
+                        </li>
+                    </ul>
+                    <style>
+                        .btn.active{
+                            background-color: black;
+                            color: aliceblue;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pb-3">
+            <div
+                class="container d-flex justify-content-center align-items-center">
+                <div class="tab-content" id="pills-tabContent">
+                    <div
+                        class="tab-pane fade"
+                        id="pills-breakfast"
+                        role="tabpanel" aria-labelledby="pills-breakfast-tab">
+                        <div
+                            class="d-flex justify-content-center align-items-center">
+
+                            <div
+                                class="row d-flex justify-content-center  align-items-center w-75 p-0 g-1">
+                                <div class="col-lg-3 p-1 border-0 card">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch1.png"
+                                        alt="wait for image">
+                                    <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch2.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                            CHIKEN KABAB
+                                        </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch3.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch4.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-starter"
+                        role="tabpanel"
+                        aria-labelledby="pills-starter-tab">
+                        <div
+                            class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="d-flex justify-content-center  align-items-center w-75 p-0 g-1">
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch8.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch7.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch6.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch5.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="pills-lunch"
+                        role="tabpanel"
+                        aria-labelledby="pills-lunch-tab">
+                        <div
+                            class="d-flex justify-content-center align-items-center">
+
+                            <div
+                                class="row d-flex justify-content-center  align-items-center w-75 p-0  g-1">
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch7.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch3.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch5.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch8.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-dinner"
+                        role="tabpanel"
+                        aria-labelledby="pills-dinner-tab">
+                        <div
+                            class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="row d-flex justify-content-center  align-items-center w-75 p-0  g-1">
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch3.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch4.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch2.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch6.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-southindian"
+                        role="tabpanel" aria-labelledby="pills-southindian-tab">
+                        <div
+                            class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="row d-flex justify-content-center  align-items-center w-75 p-0  g-1">
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch5.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch2.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch8.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch7.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-chinese"
+                        role="tabpanel"
+                        aria-labelledby="pills-chinese-tab">
+                        <div
+                            class="d-flex justify-content-center align-items-center">
+                            <div
+                                class="row d-flex justify-content-center  align-items-center w-75 p-0 g-1">
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch1.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch7.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch4.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1 card border-0">
+                                    <img class="img-fluid"
+                                        src="/images/menu/lunch6.png"
+                                        alt="wait for image">
+                                        <div class="card-img-overlay title border border-dark d-flex justify-content-center align-items-center" style="width: 60%;height: 10%;top: 10px;left: 5px;">
+                                        CHIKEN KABAB
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer section start -->
+
+        <div class="container-fluid" id="footer">
+            <div
+                class="container pt-5 d-flex justify-content-center align-items-center"
+                id="footer-part">
+                <div
+                    class="row d-flex justify-content-center align-items-center"
+                    style="width: 90%;">
+                    <div class="col-lg-5">
+                        <h2>LEVINO</h2>
+                        <p class="pt-2 w-75">Lorem Ipsum is simply dummy
+                            text of the printing and
+                            typesetting industry.</p>
+                        <div class="pt-3">
+                            <i class="fa-brands fa-twitter pe-2"></i>
+                            <i class="fa-brands fa-facebook-f pe-2"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div>
+                            <h4>LEVINO</h4>
+                            <ul class="list-unstyled list pt-3">
+                                <li class="list-item"><a href="/aboutUs.html"
+                                        class="text-decoration-none text-dark">About</a></li>
+                                <li class="list-item pt-2"><a href="/"
+                                        class="text-decoration-none text-dark">Rooms</a></li>
+                                <li class="list-item pt-2"><a href="/menu.html"
+                                        class="text-decoration-none text-dark">Resturant</a></li>
+                                <li class="list-item pt-2"><a
+                                        href="/contactUs.html"
+                                        class="text-decoration-none text-dark">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div>
+                            <h4>EVENT</h4>
+                            <ul class="list-unstyled list pt-3">
+                                <li class="list-item"><a href
+                                        class="text-decoration-none text-dark">Birthday
+                                        Party</a></li>
+                                <li class="list-item pt-2"><a href
+                                        class="text-decoration-none text-dark">Business
+                                        event</a></li>
+                                <li class="list-item pt-2"><a href
+                                        class="text-decoration-none text-dark">Wedding</a></li>
+                                <li class="list-item pt-2"><a href
+                                        class="text-decoration-none text-dark">Family
+                                        Party</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <h4>CONTACT</h4>
+                            <p class="pt-3">Lorem Ipsum is simply dummy text
+                                of the printing and typesetting
+                                industry.</p>
+                            <p>levino@gmail.com</p>
+                            <p>+91 987654321</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <hr class="h-3" style="width: 90rem;border: 1px solid;">
+                    </div>
+                    <div
+                        class="d-flex justify-content-center align-items-center p-3">
+                        <p>© Copyright 2022, All Rights Reserved by LEVINO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer section end -->
+
+        <!-- bootstrap js link -->
+        <script
+            src="./assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
